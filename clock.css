@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Use of # in id*/
+
+ 
+#Container{
+    position: relative;
+    margin: auto; /*use of the cinter in auto*/
+    
+    width: 40vw;
+    height: 40vw;
+    background-size: 100%;
+}
+img{
+    width: 100%;
+    margin:auto;
+}
+ 
+
+#Hour, #Minute, #Second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#Hour{
+    width: 1%;
+    height: 24%;
+    top: 26%;
+    left: 49.5%;
+    opacity: 0.8;
+    background-color: rgb(218, 19, 19);
+     
+    
+}
+#Minute{
+    width: 1%;
+    height: 27%;
+    top: 23%;
+    left: 49.5%;
+    opacity: 0.8;
+    background-color: blue;
+       
+}
+#Second{
+    width: 1%;
+    height: 30%;
+    top: 20%;
+    left: 49.5%;
+    opacity: 0.8;
+    background-color: burlywood;
+    
+}
